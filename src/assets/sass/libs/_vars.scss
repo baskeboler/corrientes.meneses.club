@@ -1,12 +1,10 @@
 // Misc.
-$misc: (
-  bg: #348cb2 url('../images/bg.jpg') bottom left,
-  bg-width: 1500px,
+$misc: (bg: #348cb2 url('../images/meneses.jpg') bottom center,
+  bg-width: 1900px,
 );
 
 // Duration.
-$duration: (
-  bg: 60s,
+$duration: (bg: 6000s,
   wrapper: 3s,
   overlay: 1.5s,
   header: 1s,
@@ -14,8 +12,7 @@ $duration: (
 );
 
 // Size.
-$size: (
-  nav-icon-wrapper: 5.35em,
+$size: (nav-icon-wrapper: 5.35em,
   nav-icon: 1.75em,
 );
 
@@ -23,12 +20,10 @@ $size: (
 $font: ();
 
 // Palette.
-$palette: (
-  bg: #fff,
+$palette: (bg: #fff,
   fg: #fff,
   dark: #000,
-  nav-icon: (
-    hover-bg: rgba(255, 255, 255, 0.175),
+  nav-icon: (hover-bg: rgba(255, 255, 255, 0.175),
     hover-fg: #fff,
     active-bg: rgba(255, 255, 255, 0.35),
     active-fg: #fff,

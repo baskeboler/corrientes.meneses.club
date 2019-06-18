@@ -20,7 +20,7 @@ const Layout = ({ children, darkText }) => (
         <Helmet
           title={data.site.siteMetadata.title}
           meta={[
-            { name: 'description', content: 'Aerial' },
+            { name: 'description', content: 'Corrientes y Meneses' },
             { name: 'keywords', content: 'site, web' },
           ]}
         >
