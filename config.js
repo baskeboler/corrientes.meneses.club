@@ -1,7 +1,7 @@
 module.exports = {
   siteTitle: 'Corrientes y Meneses', // <title>
-  manifestName: 'Aerial',
-  manifestShortName: 'Portfolio', // max 12 characters
+  manifestName: 'Buenos Aires Mismo',
+  manifestShortName: 'Pando', // max 12 characters
   manifestStartUrl: '/',
   manifestBackgroundColor: '#663399',
   manifestThemeColor: '#663399',
