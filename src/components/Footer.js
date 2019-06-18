@@ -4,7 +4,7 @@ export default function Footer() {
   return (
     <footer id="footer">
       <span class="copyright">
-        &copy; Richard Techera: <a href="http://meneses.club">Pando</a>.
+        &copy; Sergio Scanariazzo: <a href="http://meneses.club">Pando</a>.
       </span>
     </footer>
   );
