@@ -1,5 +1,7 @@
 module.exports = {
   siteTitle: 'Corrientes y Meneses', // <title>
+  siteUrl: 'https://corrientes.meneses.club',
+  siteLogo: '/icons/icon-512x512.png',
   manifestName: 'Buenos Aires Mismo',
   manifestShortName: 'Pando', // max 12 characters
   manifestStartUrl: '/',

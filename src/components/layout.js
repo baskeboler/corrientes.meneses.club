@@ -2,6 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import Helmet from 'react-helmet';
 import { StaticQuery, graphql } from 'gatsby';
+import config from '../../config';
 
 import '../assets/sass/main.scss';
 const Layout = ({ children, darkText }) => (
@@ -20,8 +21,25 @@ const Layout = ({ children, darkText }) => (
         <Helmet
           title={data.site.siteMetadata.title}
           meta={[
+            { name: 'title', content: config.siteTitle },
             { name: 'description', content: 'Corrientes y Meneses' },
             { name: 'keywords', content: 'site, web' },
+            { name: 'image', content: `${config.siteUrl}${config.siteLogo}` },
+            { name: 'twitter:title', content: config.siteTitle },
+            { name: 'twitter:description', content: 'Corrientes y Meneses' },
+            { name: 'twitter:card', content: 'summary_large_image' },
+            {
+              name: 'twitter:image',
+              content: `${config.siteUrl}${config.siteLogo}`,
+            },
+            { name: 'twitter:creator', content: '@baskeboler' },
+            { name: 'title', content: config.siteTitle },
+            { name: 'og:description', content: 'Corrientes y Meneses' },
+            { name: 'og:title', content: config.siteTitle },
+            {
+              name: 'og:image',
+              content: `${config.siteUrl}${config.siteLogo}`,
+            },
           ]}
         >
           <html lang="en" />
