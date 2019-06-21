@@ -4,7 +4,6 @@ import Helmet from 'react-helmet';
 import { StaticQuery, graphql } from 'gatsby';
 import config from '../../config';
 import BgImg from 'gatsby-background-image';
-
 import '../assets/sass/main.scss';
 const Layout = ({ children, darkText, bgIdx = 0 }) => (
   <StaticQuery
@@ -17,14 +16,14 @@ const Layout = ({ children, darkText, bgIdx = 0 }) => (
         }
         meneses: file(relativePath: { eq: "images/meneses.jpg" }) {
           childImageSharp {
-            fluid(maxWidth: 1980, fit: FILL) {
+            fluid(maxWidth: 1600, fit: COVER) {
               ...GatsbyImageSharpFluid
             }
           }
         }
         esquina: file(relativePath: { eq: "images/esquina.png" }) {
           childImageSharp {
-            fluid(maxWidth: 1980, fit: FILL) {
+            fluid(maxWidth: 1600, fit: COVER) {
               ...GatsbyImageSharpFluid
             }
           }

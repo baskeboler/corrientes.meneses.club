@@ -4,7 +4,7 @@ import React, { useState } from 'react';
 import Layout from '../components/layout';
 import Footer from '../components/Footer';
 import Header from '../components/Header';
-
+// import {  } from ;
 let secs = 0;
 setInterval(() => {
   secs = new Date().getSeconds();
