@@ -16,14 +16,14 @@ const Layout = ({ children, darkText, bgIdx = 0 }) => (
         }
         meneses: file(relativePath: { eq: "images/meneses.jpg" }) {
           childImageSharp {
-            fluid(maxWidth: 1600, fit: COVER) {
+            fluid(maxWidth: 1000, fit: COVER) {
               ...GatsbyImageSharpFluid
             }
           }
         }
         esquina: file(relativePath: { eq: "images/esquina.png" }) {
           childImageSharp {
-            fluid(maxWidth: 1600, fit: COVER) {
+            fluid(maxWidth: 1000, fit: COVER) {
               ...GatsbyImageSharpFluid
             }
           }
